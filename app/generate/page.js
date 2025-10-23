@@ -7,7 +7,7 @@ import { useSearchParams } from 'next/navigation';
 import Image from 'next/image';
 
 
-function generate() {
+function Generate() {
   const searchParams = useSearchParams()
   const [links, setlinks] = useState([{ link: "", linktext: "" }])
   const [handle, sethandle] = useState(searchParams.get('handle'))
@@ -119,4 +119,4 @@ function generate() {
   )
 }
 
-export default generate
+export default Generate
