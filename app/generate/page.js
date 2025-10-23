@@ -1,7 +1,8 @@
 export const dynamic = 'force-dynamic'
+export const revalidate = 0
 "use client"
 
-import React, { useState } from 'react'
+import React, { useState , Suspense} from 'react'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { useSearchParams } from 'next/navigation';
