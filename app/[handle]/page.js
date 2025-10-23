@@ -1,6 +1,7 @@
 import Link from "next/link"
 import clientPromise from "../lib/mongodb"
 import { notFound } from "next/navigation"
+import Image from "next/image"
 
 export default async function Page({ params }) {
   const handle = (await params).handle
@@ -16,7 +17,7 @@ export default async function Page({ params }) {
   }
   return <div className="flex min-h-screen bg-purple-400 justify-center items-start py-10">
     {item && <div className="photo flex justify-center flex-col items-center">
-      <img src={item.pic} alt="dppic" />
+      <Image width={500} height={300} src={item.pic} alt="dppic" />
       <span className="font-bold text-xl">@{item.handle}</span>
       <span className="desc w-80 text-center"> Made to Travel. For help, please follow one customer support links below</span>
       <div className="links">

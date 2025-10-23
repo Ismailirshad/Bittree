@@ -4,6 +4,7 @@ import React, { useState } from 'react'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { useSearchParams } from 'next/navigation';
+import Image from 'next/image';
 
 
 function generate() {
@@ -109,7 +110,7 @@ function generate() {
       </div>
 
       <div className="col-2">
-        <img className='mix-blend-plus-darker' src="https://myfreewilljourney.files.wordpress.com/2021/06/linktree-logo-0.png?w=1200" alt="img" />
+        <Image width={300} height={300} className='mix-blend-plus-darker' src="https://myfreewilljourney.files.wordpress.com/2021/06/linktree-logo-0.png?w=1200" alt="img" />
         <ToastContainer />
       </div>
 

@@ -1,5 +1,5 @@
 "use client"
-// import Image from "next/image";
+import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 
@@ -26,7 +26,7 @@ export default function Home() {
         </div>
         <div className="flex items-center mx-auto">
           <div className="w-[550px] h-full flex items-center justify-center">
-            <img width={500} src="https://uploads-ssl.webflow.com/5db7f73b24ac075340659d60/6304564515bf056e26c07588_linktree-share-goal.png" alt="" />
+            <Image width={500} height={400} src="https://uploads-ssl.webflow.com/5db7f73b24ac075340659d60/6304564515bf056e26c07588_linktree-share-goal.png" alt="" />
 
           </div>
         </div>
