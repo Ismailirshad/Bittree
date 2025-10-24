@@ -110,7 +110,7 @@ function Generate() {
       </div>
 
       <div className="col-2">
-        <Image width={300} height={300} className='mix-blend-plus-darker' src="https://myfreewilljourney.files.wordpress.com/2021/06/linktree-logo-0.png?w=1200" alt="img" />
+        <Image width={600} height={600} className='mix-blend-plus-darker' src="https://myfreewilljourney.files.wordpress.com/2021/06/linktree-logo-0.png?w=1200" alt="img" />
         <ToastContainer />
       </div>
 
