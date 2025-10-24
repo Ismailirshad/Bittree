@@ -5,7 +5,7 @@ import { usePathname } from 'next/navigation'
 
 function Navbar() {
     const pathname = usePathname()
-    const showNavbar = ['/', '/Generate'].includes(pathname)
+    const showNavbar = ['/', '/generate'].includes(pathname)
     return (showNavbar && <nav className='bg-white w-[80vw] fixed  top-10 rounded-full flex gap-5 items-center justify-between right-[10vw] p-2  '>
         <div className='logo flex gap-5  items-center mx-5'>
             <Link href={'/'}>
