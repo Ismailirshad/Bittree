@@ -119,4 +119,5 @@ function Generate() {
   )
 }
 
+export const dynamic = 'force-dynamic';
 export default Generate
