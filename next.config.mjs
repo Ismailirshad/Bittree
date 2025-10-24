@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    domains: ['uploads-ssl.webflow.com'],
+    domains: ['example.com', 'another-site.com', 'myfreewilljourney.files.wordpress.com'],
     remotePatterns: [
       {
         protocol: 'https',

@@ -8,7 +8,7 @@ export default function Home() {
   const [text, settext] = useState("")
 
   const createTree = () => {
-    router.push(`/generate?handle=${text}`)
+    router.push(`/Generate?handle=${text}`)
   }
   return (
     <>
