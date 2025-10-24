@@ -1,7 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    domains: ['example.com', 'another-site.com', 'myfreewilljourney.files.wordpress.com'],
+    domains: [
+      'example.com', 
+      'another-site.com', 
+      'myfreewilljourney.files.wordpress.com'
+    ],
     remotePatterns: [
       {
         protocol: 'https',
@@ -13,4 +17,4 @@ const nextConfig = {
   },
 };
 
-export default nextConfig;
+module.exports = nextConfig;
