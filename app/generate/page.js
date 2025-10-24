@@ -1,6 +1,6 @@
-// export const dynamic = 'force-dynamic'
-// export const revalidate = 0
-"use client"
+'use client'
+export const dynamic = 'force-dynamic'
+export const revalidate = 0
 
 import React, { useState , Suspense} from 'react'
 import { ToastContainer, toast } from 'react-toastify';
